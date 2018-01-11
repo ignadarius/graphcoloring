@@ -35,7 +35,7 @@ public class Graph {
         }
         colors = new TreeSet<>();
         independentSet = new HashSet<>(graph.keySet());
-        for (int i = 0; i < 6  ; i++) {
+        for (int i = 0; i < 100  ; i++) {
             colors.add(i);
         }
         exec = Executors.newFixedThreadPool(8);
